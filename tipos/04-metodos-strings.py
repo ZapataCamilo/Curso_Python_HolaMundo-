@@ -1,0 +1,12 @@
+animal = ' pERro negro '
+print(animal.upper())
+print(animal.lower())
+print(animal.strip().capitalize())
+print(animal.title())
+print(animal.strip())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find('pE'))
+print(animal.replace('pE', 'Pe'))
+print('pE' in animal)
+print('pE' not in animal)
