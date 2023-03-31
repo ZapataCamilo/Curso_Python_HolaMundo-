@@ -5,5 +5,6 @@ mascostas.append('Hades') # Agrega en la ultima posicion
 
 mascostas.remove('Ares') # Se le indica que elemento se quiere eliminar de la lista
 mascostas.pop() # Se elimina el ultimo elemento de la lista
-del mascostas[0] # Se elima el elemento de una lista segun la posicion dada
+del mascostas[0] # Se elimina el elemento de una lista segun la posicion dada
+mascostas.clear() # Se elimina todos los elementos de la lista
 print(mascostas)
